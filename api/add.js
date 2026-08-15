@@ -18,9 +18,12 @@
 //   TIMEZONE            IANA zone for "today" when the client sends none.
 //                       Defaults to America/New_York.
 
+// The one category axis for an entry: course codes and non-course categories
+// share it. Edit this each semester — Notion auto-creates any select option it
+// hasn't seen, so a new code here needs no change on the Notion side.
 const LABELS = [
   "CS 3510", "CS 3001", "KOR 3002", "PSYC 1101", "MATH 3012",
-  "Clubs", "VIP", "GC", "Misc", "Career"
+  "Clubs", "VIP", "GC", "Misc", "Career", "Yonsei"
 ];
 
 const NOTION_VERSION = "2022-06-28";
