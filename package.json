@@ -1,0 +1,10 @@
+{
+  "name": "notion-voice-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vercel function that turns dictated text from an iOS Shortcut into a Notion Assignments page.",
+  "engines": {
+    "node": "22.x"
+  }
+}
